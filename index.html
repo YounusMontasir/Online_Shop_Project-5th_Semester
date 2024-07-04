@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="shopmontasir.css">
+    <title>Montasir's Shop</title>
+    <script src="https://kit.fontawesome.com/2c52c9e557.js" crossorigin="anonymous"></script>
+    <!-- OWL  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Pacifico&family=Source+Code+Pro&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DynaPuff&family=Inconsolata&family=Pacifico&family=Source+Code+Pro&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar-->
+    <nav class="navbar navbar-expand-lg bg-light py-3">
+        <div class="container-fluid">
+            <img src="/foodglogo.png" style="margin-right: 30px;" alt="Food Gallery">
+            <a class="navbar-brand" href="#">
+                <h1 style="font-family: 'DynaPuff', cursive; color: rgb(66, 20, 109);">Food Gallery</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-P="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto ">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#product">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#review">Review</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar ends -->
+    <!-- product and description -->
+    <div class="carous">
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-P="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-P="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-P="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="information">
+                        <div class="info">
+                            <h1>Deka Waefer Roll</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Earum amet officiis
+                                assumenda.
+                                Dolor, officiis totam sunt libero <br> velit maxime corporis cupiditate maiores, animi
+                                sapiente quibusdam!</p>
+                            <div class="  prod-btn border-0">
+                                <button class="btn bg-dark text-white w-100" type="button">Add To Cart</button>
+                            </div>
+                        </div>
+                        <div class="info-image">
+                            <img style="height: 350px; width: 350px;" src="/deka.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="information">
+                        <div class="info">
+                            <h1>Nitchi Waefer Roll</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Qui sapiente, odit tempore
+                                tempora deleniti id <br> libero ipsum veniam animi placeat doloremque exercitationem non
+                                <br>
+                                rerum perspiciatis ex magnam. Quas, enim hic.
+                            </p>
+                            <div class="  prod-btn border-0">
+                                <button class="btn bg-dark text-white w-100" type="button">Add To Cart</button>
+                            </div>
+                        </div>
+                        <div class="info-image">
+                            <img style="height: 350px; width: 400px;" src="/chocolate.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="information">
+                        <div class="info">
+                            <h1>Nutella</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Dicta quis suscipit
+                                mollitia
+                                iste iusto reiciendis, harum facilis deserunt <br> nostrum libero similique placeat
+                                dolorum
+                                exercitationem minus.</p>
+                            <div class="  prod-btn border-0">
+                                <button class="btn bg-dark text-white w-100" type="button">Add To Cart</button>
+                            </div>
+                        </div>
+                        <div class="info-image"><img style="height: 350px; width: 350px;" src="/nutella.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+
+    <!-- price and products -->
+    <div class="product-container" id="product">
+        <div>
+            <div class="products p-3">
+                <div class="card prod-card  mt-4" id="prod1">
+                    <img src="https://m.media-amazon.com/images/I/51GKb3dBopL._SL1000_.jpg" height="200px"
+                        width="200px">
+                    <div class="card-body">
+                        <h5 class="card-title">Gold Coffee</h5>
+                        <p>$ <small id="prod1-price">40</small> </p>
+                        <div class="  prod-btn border-0">
+                            <button class="btn bg-dark text-white w-100" type="button">Add To Cart</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card prod-card  mt-4" id="prod2">
+                    <img src="https://static-01.daraz.com.bd/p/a3e564ebdcb8682c7f9bfeb8e58dc56e.jpg" height="200px"
+                        width="200px">
+                    <div class="card-body">
+                        <h5 class="card-title">Oat Choco</h5>
+                        <p>$ <small id="prod2-price">40</small> </p>
+                        <div class="  prod-btn border-0">
+                            <button class="btn bg-dark text-white w-100" type="button">Add To Cart</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card prod-card  mt-4" id="prod3" >
+                    <img src="https://www.nestle-cereals.com/my/sites/g/files/fawtmp381/files/styles/scale_992/public/d7/koko-crunch_1.png?itok=oaUQvETS"
+                        height="200px" width="200px">
+                    <div class="card-body">
+                        <h5 class="card-title">Koko Krunch</h5>
+                        <p>$ <small id="prod3-price">40</small> </p>
+                        <div class="  prod-btn border-0">
+                            <button class="btn bg-dark text-white w-100" type="button">Add To Cart</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card prod-card  mt-4" id="prod4">
+                    <img src="https://static-01.daraz.com.bd/p/mdc/ac73058f8e1e640346d78f0026ccc6e5.jpg" height="200px"
+                        width="200px">
+                    <div class="card-body">
+                        <h5 class="card-title">As Shifa Honey</h5>
+                        <p>$ <small id="prod4-price">40</small> </p>
+                        <div class="  prod-btn border-0">
+                            <button class="btn bg-dark text-white w-100" type="button">Add To Cart</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card prod-card  mt-4" id="prod5">
+                    <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/28679550/1433988562.jpg" height="200px"
+                        width="200px">
+                    <div class="card-body">
+                        <h5 class="card-title">Hershey's Syrup</h5>
+                        <p>$ <small id="prod5-price">40</small> </p>
+                        <div class="  prod-btn border-0">
+                            <button class="btn bg-dark text-white w-100" type="button">Add To Cart</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card prod-card mt-4" id="prod6">
+                    <img src="https://i5.walmartimages.ca/images/Enlarge/595/864/6000205595864.jpg" height="200px"
+                        width="200px">
+                    <div class="card-body">
+                        <h5 class="card-title">Hellmen's Mayonaisse</h5>
+                        <p>$ <small id="prod6-price">40</small> </p>
+                        <div class="  prod-btn border-0">
+                            <button class="btn bg-dark text-white w-100" type="button">Add To Cart</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="product-price-total mt-5 p-3">
+            <div class="border border-dark p-3 m-3">
+                <h2>My Card</h2>
+                <hr>
+                <div class="row mb-1">
+                    <P class="" for="Total Product:">Total Product:
+                    <P>
+                    <p></p>
+                </div>
+
+                <div class="row mb-1">
+                    <P class="" for="Price:">Price:</P>
+                    <p></p>
+                </div>
+
+                <div class="row mb-1">
+                    <P class="" for="Delivery:">Delivery:</P>
+                    <p></p>
+                </div>
+                <hr>
+                <div class="row mb-1">
+                    <P class="" for="Shipping::">Shipping:</P>
+
+                </div>
+
+                <div class="row mb-1">
+                    <P class="" for="Total Price:">Total Price:</P>
+                    <p></p>
+                </div>
+                <div class="row mb-1">
+                    <P class="" for="Tax:">VAT:</P>
+                    <p></p>
+                </div>
+                <div class="row mb-1">
+                    <P class="" for="Total Price with Tax:">Total Price with Tax:</P>
+                    <p></p>
+                </div>
+                <div class="  prod-btn border-0">
+                    <button class="btn bg-dark text-white w-100" type="button">Checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Upcoming product -->
+    <div class="Upcomingproducts">
+        <h1 style="text-align: center;"> <b>Upcoming Products</b></h1>
+        <div class="cards">
+            <div class="card" style="width: 18rem;">
+                <img src="https://www.mawolatraders.com/wp-content/uploads/2021/04/21-01-3-scaled.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Moonize</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, culpa.
+                    </p>
+                    <a href="#" class="btn btn-dark">Pre-order</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://chocolateshopbd.com/wp-content/uploads/2021/11/Munchys-Lexus-Chocolate-Cream1.png"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Lexus Chocolate</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, corrupti!</p>
+                    <a href="#" class="btn btn-dark">Pre-order</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://www.bishuddhotabd.com/products/2_l5Age2z_Ryn99MD.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Oat Calcium</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, magni.</p>
+                    <a href="#" class="btn btn-dark">Pre-order</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+    <!-- Upcoming end -->
+    <!-- Review start -->
+    <div class="rev" id="review" style="background-color: rgb(52, 102, 110);padding-bottom: 50px;">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div style="margin-left: 200px;padding-top: 30px;">
+                    <div>
+                        <img style="width: 300px;height: 270px; border-radius: 40px;" src="/habib.jpg"
+                            class="d-block rounded-circle">
+                    </div>
+                    <div style="color: black;font-weight: 500;margin-left: 40px;margin-top: 20px;">
+                        <h4 style="color: rgb(179, 179, 179);"> <b>Samiul Habib</b> </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolore rerum eligendi.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div style="margin-left: 200px;padding-top: 30px;">
+                    <div>
+                        <img style="width: 300px;height: 270px;border-radius: 40px;" src="/siraj.jpg"
+                            class="d-block rounded-circle">
+                    </div>
+                    <div style="color: black;font-weight: 500;margin-left: 40px;margin-top: 20px;">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolore rerum eligendi.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div style="margin-left: 200px;padding-top: 30px;">
+                    <div>
+                        <img style="width: 300px;height: 270px;border-radius: 40px;" src="tuhin.jfif"
+                            class="d-block rounded-circle">
+                    </div>
+                    <div style="color: black;font-weight: 500;margin-left: 40px;margin-top: 20px;">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolore rerum eligendi.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div style="margin-left: 200px;padding-top: 30px;">
+                    <div>
+                        <img style="width: 300px;height: 270px;border-radius: 40px;" src="rafayet.jpg"
+                            class="d-block rounded-circle">
+                    </div>
+                    <div style="color: black;font-weight: 500;margin-left: 40px;margin-top: 20px;">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolore rerum eligendi.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div style="margin-left: 200px;padding-top: 30px;">
+                    <div>
+                        <img style="width: 300px;height: 270px;border-radius: 40px;" src="/farhan.jpg"
+                            class="d-block rounded-circle">
+                    </div>
+                    <div style="color: black;font-weight: 500;margin-left: 40px;margin-top: 20px;">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolore rerum eligendi.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div style="margin-left: 200px;padding-top: 30px;">
+                    <div>
+                        <img style="width: 300px;height: 270px;border-radius: 40px;" src="/tareq.jpg"
+                            class="d-block rounded-circle">
+                    </div>
+                    <div style="color: black;font-weight: 500;margin-left: 40px;margin-top: 20px;">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolore rerum eligendi.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div style="margin-left: 200px;padding-top: 30px;">
+                    <div>
+                        <img style="width: 300px;height: 270px;border-radius: 40px;" src="shanto.jfif"
+                            class="d-block rounded-circle">
+                    </div>
+                    <div style="color: black;font-weight: 500;margin-left: 40px;margin-top: 20px;">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolore rerum eligendi.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div style="margin-left: 200px;padding-top: 30px;">
+                    <div>
+                        <img style="width: 300px;height: 270px;border: border-radius: 40px;" src="/amit.jfif"
+                            class="d-block rounded-circle">
+                    </div>
+                    <div style="color: black;font-weight: 500;margin-left: 40px;margin-top: 20px;">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolore rerum eligendi.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div style="margin-left: 200px;padding-top: 30px;">
+                    <div>
+                        <img style="width: 300px;height: 270px;border: border-radius: 40pxk; " src="raihan.jpg"
+                            class="d-block rounded-circle">
+                    </div>
+                    <div style="color: black;font-weight: 500;margin-left: 40px;margin-top: 20px;">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolore rerum eligendi.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Review End -->
+
+    <!-- Footer -->
+    <div class="footer row" id="contact">
+        <div class="col">
+            <h3>Useful Links</h3>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <a href="#">Privacy</a>
+            <a href="#">Shop</a>
+        </div>
+        <div class="col">
+            <h3>Get Help</h3>
+            <a href="#">FAQ</a>
+            <a href="#">Shipping</a>
+            <a href="#">Returns</a>
+            <a href="#">Order Status</a>
+            <a href="#">Payment Options</a>
+        </div>
+        <div class="col">
+            <h3>Address</h3>
+            <p>Nasirabad R/A,Road 3 <br>Chittagong,Bangladesh</p>
+            <div class="social-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+    </div>
+     <script src="./index.js"></script>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+<!--  OWL  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script type="text/javascript">
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 20,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 3
+            }
+        }
+    })
+</script>
+
+</html>
